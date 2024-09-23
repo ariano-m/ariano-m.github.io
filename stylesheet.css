@@ -64,13 +64,15 @@
 }
 
 a {
-  color: #1772d0;
+  /* color: #1772d0; */
+  color: #328cc1;
   text-decoration: none;
+  font-size: 16px;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #d98310;
   text-decoration: none;
 }
 
@@ -81,12 +83,12 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 16px
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 heading {
@@ -96,7 +98,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700
 }
 
@@ -128,4 +130,34 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.head {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #083c5d;
+  /* background-color: #902923; */
+}
+
+.content {
+  padding-top: 160px;
+}
+
+.contact-info {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  color: #ffffff;
 }
