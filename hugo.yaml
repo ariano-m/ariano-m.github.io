@@ -1,0 +1,82 @@
+baseURL: "https://ariano-m.github.io/"
+title: ARiano-blog
+paginate: 5
+theme: PaperMod
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+paginate: 10
+paginatePath: posts
+
+params:
+  auhtor: ariano-m
+  ShowReadingTime: true
+  ShowWordCount: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  # ShowShareButtons: true
+
+  profileMode:
+    enabled: true
+    title: Adrián Riaño
+    imageUrl: "perfil/perfil.png"
+    imageTitle: ProfileMode image
+    imageWidth: 250
+    imageHeight: 250
+    #subtitle: "Ingeniero de visión artificial | NLP, CV, Web"
+    subtitle: "Hola!👋 Soy Adrián y soy un entusiasta en la resolución de problemas que unen la programación y la inteligencia artifical. Actualmente, mi trayectoria profesional se ha basado en: desarrollo web integral, aprendizaje profundo y automatización de herramientas."
+    buttons:
+      - name: 📚Blog
+        url: posts
+  
+  socialIcons:
+    - name: "email"
+      url: "mailto:adrianrima98@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/adri%C3%A1n-ria%C3%B1o-8b2427165"
+    - name: "github"
+      url: "https://github.com/ariano-m"
+    - name: "ORCID"
+      url: "https://orcid.org/0009-0004-8755-255X"
+
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 0.4
+  #   minMatchCharLength: 0
+  #   keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: home
+      name: 🏡Home
+      url: /
+      weight: 10
+    - identifier: post
+      name: 📚Blog
+      url: /posts/
+      weight: 20
+    - identifier: tags
+      name: 🏷️Tags
+      url: /tags/
+      weight: 30
+    - identifier: aboutme
+      name: 😊Sobre mí
+      url: /aboutme/
+      weight: 30
+    - identifier: cv
+      name: 👨🏻‍💻CV
+      url: /cv/
+      weight: 50
+
