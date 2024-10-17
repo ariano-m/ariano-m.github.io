@@ -12,4 +12,4 @@ draft: false
 #    image: ""
 ---
 
-Hola! Este se trata de mi primer post en este nuevo blog. El objetivo de esta web consiste en recoger toda mi experiencia profesional como informático así como recoger mis intereses y curiosidades a lo largo de mi carrera. Espero que os guste!!!
+Hola! Este se trata de mi primer post en este nuevo blog. El objetivo de esta web consiste en recoger pequeños intereses, curiosidades y pensamientos sobre mi vida como informático. Espero que os guste!!!
