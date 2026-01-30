@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>#Aboutme on ARiano-blog</title>
     <link>http://localhost:1313/tags/%23aboutme/</link>
     <description>Recent content in #Aboutme on ARiano-blog</description>
-    <generator>Hugo -- 0.136.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%23aboutme/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/hello_word_post/</link>
       <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hello_word_post/</guid>
-      <description>Mi primer post 🤗</description>
+      <description>&lt;p&gt;Hola! Este se trata de mi primer post en este nuevo blog. El objetivo de esta web consiste en recoger pequeños intereses, curiosidades y pensamientos sobre mi vida como informático. Espero que os guste!!!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
