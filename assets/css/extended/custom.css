@@ -1,0 +1,140 @@
+:root {
+    --theme: rgb(255, 252, 241);
+    --entry: rgb(255, 252, 241);
+    --code-bg: rgb(255, 252, 241);
+    --primary: #e65100;
+    --secondary: #ff7043;
+    --tertiary: #fff3e0;
+    --border: #ffe0b2;
+    --content: #3e2723;
+}
+
+html:not(.dark), body:not(.dark) {
+    background: rgb(255, 252, 241);
+}
+
+.dark {
+    --primary: #ffab91;
+    --secondary: #ff7043;
+    --tertiary: #3e2723;
+    --border: #4e342e;
+    --content: #efebe9;
+}
+
+.dark .post-content h3 {
+    color: #ef9a9a !important;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+#menu .active {
+    border-bottom-color: var(--primary);
+}
+
+.top-link {
+    background: var(--tertiary);
+}
+
+.top-link:hover {
+    color: var(--primary);
+}
+
+.footer a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+.logo a {
+    color: var(--primary);
+}
+
+.main {
+    padding: 16px;
+}
+
+.profile--horizontal .profile_inner {
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    text-align: left;
+}
+
+.profile--horizontal img {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border: 3px solid var(--primary);
+    border-radius: 50%;
+}
+
+.profile_text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile_text h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.profile_text span {
+    color: var(--secondary);
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.social-icons a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons {
+    margin-top: 4px;
+}
+
+.cv-date {
+    color: var(--secondary);
+}
+
+.post-content h2 {
+    color: var(--primary) !important;
+    font-size: 20px !important;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 6px;
+    margin-top: 32px !important;
+}
+
+.post-content h3 {
+    color: #c62828 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    margin-top: 20px !important;
+    margin-bottom: 4px !important;
+}
+
+.post-content h3 + p {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .profile--horizontal .profile_inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile--horizontal img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile_text {
+        align-items: center;
+    }
+}

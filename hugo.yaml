@@ -1,8 +1,10 @@
 baseURL: "https://ariano-m.github.io/"
-title: ARiano-blog
-paginate: 5
+title: Adrián Riaño
 theme: PaperMod
 
+pagination:
+  pagerSize: 10
+  path: posts
 
 outputs:
   home:
@@ -10,14 +12,10 @@ outputs:
     - RSS
     - JSON
 
-paginate: 10
-paginatePath: posts
-
 params:
   author: ariano-m
   ShowReadingTime: true
   ShowWordCount: true
-  displayFullLangName: true
   ShowPostNavLinks: true
   # ShowShareButtons: true
 
@@ -25,9 +23,8 @@ params:
     enabled: true
     title: Adrián Riaño
     imageUrl: "perfil/perfil.png"
-    imageTitle: ProfileMode image
-    imageWidth: 250
-    imageHeight: 250
+    imageWidth: 180
+    imageHeight: 180
     subtitle: "Ingeniero de visión artificial con experiencia liderando el desarrollo software y despliegue de modelos en entornos críticos. Especializado en optimizar sistemas para hardware embebido y recursos limitados, combinando habilidades técnicas con una comunicación clara para convertir problemas complejos en soluciones operativas y robustas."
   
   socialIcons:
@@ -49,30 +46,18 @@ params:
   #   minMatchCharLength: 0
   #   keys: ["title", "permalink", "summary", "content"]
 
-taxonomies:
-  category: categories
-  tag: tags
-
 menu:
   main:
     - identifier: home
-      name: 🏡Home
+      name: Home
       url: /
       weight: 10
     - identifier: post
-      name: 📚Blog
+      name: Blog
       url: /posts/
       weight: 20
-    - identifier: tags
-      name: 🏷️Tags
-      url: /tags/
-      weight: 30
-    - identifier: aboutme
-      name: 😊Sobre mí
-      url: /aboutme/
-      weight: 30
     - identifier: cv
-      name: 👨🏻‍💻CV
+      name: CV
       url: /cv/
       weight: 50
 
